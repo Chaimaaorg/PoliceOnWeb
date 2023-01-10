@@ -1,0 +1,73 @@
+@charset "UTF-8";
+@charset "ISO-8859-1";
+
+body {   
+	padding-top: 5rem; 
+} 
+
+.starter-template {   
+	padding: 3rem 1.5rem;   
+	text-align: center; 
+}
+
+.back {
+  background: #e2e2e2;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+
+.div-center {
+  width: 400px;
+  height: 400px;
+  background-color: #fff;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+  padding: 1em 2em;
+  border-bottom: 2px solid #ccc;
+  display: table;
+}
+
+div.content {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.checkButton {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	background-color:#ffffff;
+	border-radius:10px;
+	border:1px solid #706c70;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Arial;
+	font-size:19px;
+	font-weight:bold;
+	padding:8px 60px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+	margin-top: 130px;
+}
+.checkButton:hover {
+	background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+	background-color:#f6f6f6;
+}
+.checkButton:active {
+	position:relative;
+	top:1px;
+}
