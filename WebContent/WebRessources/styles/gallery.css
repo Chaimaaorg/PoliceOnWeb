@@ -1,0 +1,48 @@
+@charset "UTF-8";
+ div.contain-gallery{ 
+	 margin-left:70px; 
+	 margin-top:100px; 
+	 
+	 
+} 
+div.gallery {
+  margin: 10px;
+  float: left;
+  width: 320px;
+  background-color:white;
+  border: 0.3px solid lightgrey;  
+  border-radius: 15px 15px 30px 5px;
+  box-shadow: 10px 10px 10px whitesmoke;
+  
+  
+}
+div.gallery a {
+  float: left;
+  font-size: 16px;
+  color: #3f69a8;
+  padding: 20px 30px;
+  text-decoration: none;
+   font-size: 16px;
+  
+}
+div.gallery h1 {
+  font-size: 16px;
+  cursor:default;
+  color: #3f69a8;
+  text-align: center;
+  padding: 20px 30px;
+  text-decoration: none;
+}
+div.gallery:hover{
+  border: 1px solid #0bc3ec;
+
+}
+
+div.desc {
+  width: 320px;
+  margin-left:2px;
+  cursor:default;
+  padding:25px 0;
+  text-align: center;
+  align-items:center;
+}
